@@ -25,6 +25,25 @@ const config = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      xs: "450px",
+      // => @media (min-width: 450px) { ... }
+
+      sm: "575px",
+      // => @media (min-width: 576px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "992px",
+      // => @media (min-width: 992px) { ... }
+
+      xl: "1200px",
+      // => @media (min-width: 1200px) { ... }
+
+      "2xl": "1400px",
+      // => @media (min-width: 1400px) { ... }
+    },
     extend: {
       colors: {
         black: {
@@ -82,6 +101,10 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "logo-cloud": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - 4rem))" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -148,6 +171,7 @@ const config = {
         },
       },
       animation: {
+        "logo-cloud": "logo-cloud 30s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",

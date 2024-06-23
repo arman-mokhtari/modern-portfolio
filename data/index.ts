@@ -137,6 +137,45 @@ export const testimonials = [
   },
 ];
 
+export const techStack = [
+  {
+    id: 1,
+    img: "/re.svg",
+    alt: "react",
+  },
+  {
+    id: 2,
+    img: "/tail.svg",
+    alt: "tailwind css",
+  },
+  {
+    id: 3,
+    img: "/ts.svg",
+    alt: "type script",
+  },
+  {
+    id: 4,
+    img: "/three.svg",
+    alt: "three js",
+  },
+  {
+    id: 5,
+    img: "/fm.svg",
+    alt: "Framer motion",
+  },
+  {
+    id: 6,
+    img: "/next.svg",
+    alt: "next.js",
+  },
+  {
+    id: 8,
+    img: "/c.svg",
+    alt: "Clerk",
+  },
+];
+
+
 export const companies = [
   {
     id: 1,
