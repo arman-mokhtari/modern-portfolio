@@ -23,13 +23,13 @@ const AnimatedLogos = () => {
             .map((index) => (
               <div
                 key={index}
-                className="flex shrink-0 animate-logo-cloud flex-row justify-around gap-6"
+                className="flex shrink-0 animate-logo-cloud flex-row justify-around gap-0 sm:gap-6"
               >
                 {techStack.map((logo, key) => (
                   <Image
                     key={key}
                     src={logo.img}
-                    className="h-10 w-28 px-2 md:w-24"
+                    className="h-10 w-28 md:w-24"
                     alt={`${logo.alt}`}
                     width={28}
                     title={`${logo.alt}`}
