@@ -34,14 +34,12 @@ const Hero = () => {
             Dynamic Web Magic with Next.js
           </p>
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Hi! I&apos;m Arman Mokhtari"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Arman, a Next.js Developer based in Iran.
+                    <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            A Full-stack Web Developer based in Iran.
           </p>
-
           <a href="#about">
             <MagicButton
               title="Show my work"
